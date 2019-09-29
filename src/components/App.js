@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
 import Popular from "./Popular";
+import styled from "styled-components";
 
 const Wrapper = styled.main`
-  background-color: blue;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 `
 class App extends Component {
   render() {
