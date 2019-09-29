@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import styled from "styled-components";
 import Popular from "./Popular";
 
+const Wrapper = styled.main`
+  background-color: blue;
+`
 class App extends Component {
   render() {
     return (
-      <main className='container'>
+      <Wrapper>
         <Popular />
-      </main>
+      </Wrapper>
     )
   }
 }
